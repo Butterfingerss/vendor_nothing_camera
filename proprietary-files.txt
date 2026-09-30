@@ -1,0 +1,5 @@
+# Camera app and permissions
+system_ext/priv-app/NTCamera/NTCamera.apk;OVERRIDES=Camera2,Aperture;SPLIT_FILE=99M
+system_ext/lib64/libofflineproc_jni.so
+system_ext/etc/permissions/privapp-permissions-NTCamera.xml
+system/system/etc/sysconfig/nothing-hiddenapi-package-allowlist.xml:system/etc/sysconfig/nothing-hiddenapi-package-allowlist.xml
