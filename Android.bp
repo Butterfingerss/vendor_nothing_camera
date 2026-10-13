@@ -4,8 +4,8 @@
 
 soong_namespace {
     imports: [
-        "vendor/nothing/phone2",
-        "vendor/qcom/common/vendor/adreno/s",
+        "vendor/nothing/Pong",
+        "vendor/qcom/adreno/s",
     ],
 }
 
