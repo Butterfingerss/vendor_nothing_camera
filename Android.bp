@@ -5,6 +5,7 @@
 soong_namespace {
     imports: [
         "vendor/nothing/Pong",
+        "vendor/qcom/common/vendor/adreno/s",
     ],
 }
 
