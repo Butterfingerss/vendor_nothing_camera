@@ -15,7 +15,11 @@
 $(call soong_config_set,camera,package_name,com.nothing.device.package_name)
 
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-    persist.vendor.camera.privapp.list=com.nothing.camera \
-    ro.com.google.lens.oem_camera_package=com.nothing.camera
+    persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.nothing.camera \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.nothing.camera,com.nothing.ois.cal,com.tools.cit,com.tools.runin \
+    ro.com.google.lens.oem_camera_package=com.nothing.camera \
+    ro.camera.notify_nfc=1 \
+    ro.camera.default_app_social_media_parity_enabled=true \
+    ro.camerax.extensions.enabled=true
 
 $(call inherit-product, vendor/nothing/camera/camera-vendor.mk)
